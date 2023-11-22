@@ -41,8 +41,8 @@ add_executable(
 link_fuzztest(first_fuzz_test)
 gtest_discover_tests(first_fuzz_test)
 
+target_link_libraries(first_fuzz_test PUBLIC nlohmann_json::nlohmann_json GTest::gtest asio-grpc::asio-grpc absl::strings)
 
-target_link_libraries(first_fuzz_test PUBLIC nlohmann_json::nlohmann_json)
-
+# try using different linkers
 set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fuse-ld=lld")
 # set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -fuse-ld=mold")
