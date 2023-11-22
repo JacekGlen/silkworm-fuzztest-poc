@@ -1,0 +1,262 @@
+[
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/gtest/1.14.0/_/_/package/752ff463778422508571f4c0f7ad3c6307a5e51b/include -isystem /home/jacek/.conan/data/nlohmann_json/3.11.2/_/_/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++20 -o CMakeFiles/first_fuzz_test.dir/first_fuzz_test.cc.o -c /home/jacek/dev/temp/first_fuzz_project/first_fuzz_test.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/first_fuzz_test.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/bitmap256.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/bitmap256.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/bitmap256.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/bitstate.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/bitstate.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/bitstate.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/compile.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/compile.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/compile.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/dfa.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/dfa.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/dfa.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/filtered_re2.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/filtered_re2.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/filtered_re2.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/mimics_pcre.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/mimics_pcre.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/mimics_pcre.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/nfa.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/nfa.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/nfa.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/onepass.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/onepass.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/onepass.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/parse.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/parse.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/parse.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/perl_groups.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/perl_groups.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/perl_groups.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/prefilter.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/prefilter.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/prefilter.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/prefilter_tree.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/prefilter_tree.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/prefilter_tree.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/prog.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/prog.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/prog.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/re2.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/re2.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/re2.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/regexp.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/regexp.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/regexp.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/set.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/set.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/set.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/simplify.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/simplify.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/simplify.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/tostring.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/tostring.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/tostring.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/unicode_casefold.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/unicode_casefold.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/unicode_casefold.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/re2/unicode_groups.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/unicode_groups.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/re2/unicode_groups.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/util/rune.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/util/rune.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/util/rune.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o _deps/re2-build/CMakeFiles/re2.dir/util/strutil.cc.o -c /home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/util/strutil.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src/util/strutil.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -I/runtime/src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o fuzztest/grammar_codegen/CMakeFiles/antlr_frontend.dir/antlr_frontend.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/antlr_frontend.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/antlr_frontend.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o fuzztest/grammar_codegen/CMakeFiles/backend.dir/backend.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/backend.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/backend.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -I/runtime/src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o fuzztest/grammar_codegen/CMakeFiles/code_generation.dir/code_generation.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/code_generation.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/code_generation.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -I/runtime/src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o fuzztest/grammar_codegen/generated_antlr_parser/CMakeFiles/generated_antlr_parser.dir/ANTLRv4Lexer.cpp.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser/ANTLRv4Lexer.cpp",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser/ANTLRv4Lexer.cpp"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -I/runtime/src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o fuzztest/grammar_codegen/generated_antlr_parser/CMakeFiles/generated_antlr_parser.dir/ANTLRv4Parser.cpp.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser/ANTLRv4Parser.cpp",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser/ANTLRv4Parser.cpp"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -I/runtime/src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o fuzztest/grammar_codegen/generated_antlr_parser/CMakeFiles/generated_antlr_parser.dir/ANTLRv4ParserBaseListener.cpp.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser/ANTLRv4ParserBaseListener.cpp",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser/ANTLRv4ParserBaseListener.cpp"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -I/runtime/src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o fuzztest/grammar_codegen/generated_antlr_parser/CMakeFiles/generated_antlr_parser.dir/ANTLRv4ParserListener.cpp.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser/ANTLRv4ParserListener.cpp",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser/ANTLRv4ParserListener.cpp"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -I/runtime/src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest/grammar_codegen/generated_antlr_parser -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -g -std=gnu++17 -o fuzztest/tools/CMakeFiles/grammar_domain_code_generator.dir/grammar_domain_code_generator.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/tools/grammar_domain_code_generator.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/tools/grammar_domain_code_generator.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_fuzztest.dir/fuzztest.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/fuzztest.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/fuzztest.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/gtest/1.14.0/_/_/package/752ff463778422508571f4c0f7ad3c6307a5e51b/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_fuzztest_gtest_main.dir/fuzztest_gtest_main.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/fuzztest_gtest_main.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/fuzztest_gtest_main.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/gtest/1.14.0/_/_/package/752ff463778422508571f4c0f7ad3c6307a5e51b/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_init_fuzztest.dir/init_fuzztest.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/init_fuzztest.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/init_fuzztest.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/gtest/1.14.0/_/_/package/752ff463778422508571f4c0f7ad3c6307a5e51b/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_llvm_fuzzer_main.dir/llvm_fuzzer_main.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/llvm_fuzzer_main.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/llvm_fuzzer_main.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/gtest/1.14.0/_/_/package/752ff463778422508571f4c0f7ad3c6307a5e51b/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_llvm_fuzzer_wrapper.dir/llvm_fuzzer_wrapper.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/llvm_fuzzer_wrapper.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/llvm_fuzzer_wrapper.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_compatibility_mode.dir/internal/compatibility_mode.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/compatibility_mode.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/compatibility_mode.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_configuration.dir/internal/configuration.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/configuration.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/configuration.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_coverage.dir/internal/coverage.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/coverage.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/coverage.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_domain.dir/internal/domains/in_grammar_impl.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/domains/in_grammar_impl.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/domains/in_grammar_impl.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_fixture_driver.dir/internal/fixture_driver.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/fixture_driver.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/fixture_driver.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/gtest/1.14.0/_/_/package/752ff463778422508571f4c0f7ad3c6307a5e51b/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_googletest_adaptor.dir/internal/googletest_adaptor.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/googletest_adaptor.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/googletest_adaptor.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_io.dir/internal/io.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/io.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/io.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_logging.dir/internal/logging.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/logging.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/logging.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_regexp_dfa.dir/internal/domains/regexp_dfa.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/domains/regexp_dfa.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/domains/regexp_dfa.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_registry.dir/internal/registry.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/registry.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/registry.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include -isystem /home/jacek/.conan/data/re2/20220601/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_runtime.dir/internal/runtime.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/runtime.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/runtime.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_seed_seq.dir/internal/seed_seq.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/seed_seq.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/seed_seq.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_serialization.dir/internal/serialization.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/serialization.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/serialization.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_status.dir/internal/status.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/status.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/status.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_subprocess.dir/internal/subprocess.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/subprocess.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/subprocess.cc"
+},
+{
+  "directory": "/home/jacek/dev/temp/first_fuzz_project/build",
+  "command": "/usr/bin/clang++ -I/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-src -I/home/jacek/dev/temp/first_fuzz_project/fuzztest -isystem /home/jacek/.conan/data/abseil/20230802.1/_/_/package/deb5603d2995bd541835692cb99a51f9ac45ed00/include  -g -DFUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION -UNDEBUG -fsanitize=address -fsanitize-coverage=inline-8bit-counters -fsanitize-coverage=trace-cmp -fsanitize=address -DADDRESS_SANITIZER -fsanitize-coverage=0 -g -std=gnu++17 -o fuzztest/fuzztest/CMakeFiles/fuzztest_type_support.dir/internal/type_support.cc.o -c /home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/type_support.cc",
+  "file": "/home/jacek/dev/temp/first_fuzz_project/fuzztest/fuzztest/internal/type_support.cc"
+}
+]

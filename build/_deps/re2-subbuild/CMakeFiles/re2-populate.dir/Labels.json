@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/CMakeFiles/re2-populate"
+		},
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/CMakeFiles/re2-populate.rule"
+		},
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/CMakeFiles/re2-populate-complete.rule"
+		},
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-build.rule"
+		},
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-configure.rule"
+		},
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-download.rule"
+		},
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-install.rule"
+		},
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-patch.rule"
+		},
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-test.rule"
+		},
+		{
+			"file" : "/home/jacek/dev/temp/first_fuzz_project/build/_deps/re2-subbuild/re2-populate-prefix/src/re2-populate-stamp/re2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"re2-populate"
+		],
+		"name" : "re2-populate"
+	}
+}

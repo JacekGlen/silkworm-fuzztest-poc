@@ -1,0 +1,725 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "fuzztest",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-fuzztest-Debug-d260fb57a83207c65c1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "fuzztest"
+				},
+				{
+					"build" : "_deps/re2-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.re2-build-Debug-f4cb9ceedac2de983810.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "build/_deps/re2-src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						57
+					]
+				},
+				{
+					"build" : "fuzztest/grammar_codegen",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-fuzztest.grammar_codegen-Debug-f2ab47f62f5cc25c4386.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "fuzztest/grammar_codegen",
+					"targetIndexes" : 
+					[
+						28,
+						29,
+						30,
+						55
+					]
+				},
+				{
+					"build" : "fuzztest/grammar_codegen/generated_antlr_parser",
+					"jsonFile" : "directory-fuzztest.grammar_codegen.generated_antlr_parser-Debug-3ea4922256b11702b0a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "fuzztest/grammar_codegen/generated_antlr_parser",
+					"targetIndexes" : 
+					[
+						53
+					]
+				},
+				{
+					"build" : "fuzztest/tools",
+					"jsonFile" : "directory-fuzztest.tools-Debug-39c9dee96ee699a4699c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "fuzztest/tools",
+					"targetIndexes" : 
+					[
+						54
+					]
+				},
+				{
+					"build" : "fuzztest/fuzztest",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-fuzztest.fuzztest-Debug-1ff9ffd01bf61b5314f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "fuzztest/fuzztest",
+					"targetIndexes" : 
+					[
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52
+					]
+				},
+				{
+					"build" : "fuzztest/fuzztest/grammars",
+					"jsonFile" : "directory-fuzztest.fuzztest.grammars-Debug-ffe91fc3c12225de8898.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "fuzztest/fuzztest/grammars",
+					"targetIndexes" : 
+					[
+						56
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "first_fuzz_project",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "fuzztest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28,
+						29,
+						30,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "RE2",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						57
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Continuous::@8091ef369240a0bad874",
+					"jsonFile" : "target-Continuous-Debug-9eea7f44853b189c60da.json",
+					"name" : "Continuous",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousBuild::@8091ef369240a0bad874",
+					"jsonFile" : "target-ContinuousBuild-Debug-eca9d47b96e153b835c9.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousConfigure::@8091ef369240a0bad874",
+					"jsonFile" : "target-ContinuousConfigure-Debug-d48d6834d544cf420565.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousCoverage::@8091ef369240a0bad874",
+					"jsonFile" : "target-ContinuousCoverage-Debug-e8de9bd347ebb0c892d9.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousMemCheck::@8091ef369240a0bad874",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-fe79b4b29848a95cdc5c.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousStart::@8091ef369240a0bad874",
+					"jsonFile" : "target-ContinuousStart-Debug-676ef48834a64daafafc.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousSubmit::@8091ef369240a0bad874",
+					"jsonFile" : "target-ContinuousSubmit-Debug-ddfb7de2cfc026dac8ff.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousTest::@8091ef369240a0bad874",
+					"jsonFile" : "target-ContinuousTest-Debug-c4945bb9257020cec68d.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousUpdate::@8091ef369240a0bad874",
+					"jsonFile" : "target-ContinuousUpdate-Debug-a4825dc921854d903ba6.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Experimental::@8091ef369240a0bad874",
+					"jsonFile" : "target-Experimental-Debug-10f55b0643429961bf1c.json",
+					"name" : "Experimental",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalBuild::@8091ef369240a0bad874",
+					"jsonFile" : "target-ExperimentalBuild-Debug-e2471e4cfc5d7084b22c.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalConfigure::@8091ef369240a0bad874",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-93642ea7d1ff7ac84009.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalCoverage::@8091ef369240a0bad874",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-d11bb96e19b2df413500.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalMemCheck::@8091ef369240a0bad874",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-342c030edcd5e3c2e470.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalStart::@8091ef369240a0bad874",
+					"jsonFile" : "target-ExperimentalStart-Debug-c7349c418d20bf486955.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalSubmit::@8091ef369240a0bad874",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-130c437dfb3d3aad415f.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalTest::@8091ef369240a0bad874",
+					"jsonFile" : "target-ExperimentalTest-Debug-4214cb5b886fcc571997.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalUpdate::@8091ef369240a0bad874",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-4549829db413ab3c3d00.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nightly::@8091ef369240a0bad874",
+					"jsonFile" : "target-Nightly-Debug-d3feba3fbdeedde74330.json",
+					"name" : "Nightly",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyBuild::@8091ef369240a0bad874",
+					"jsonFile" : "target-NightlyBuild-Debug-5e9e78dc52f56377d168.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyConfigure::@8091ef369240a0bad874",
+					"jsonFile" : "target-NightlyConfigure-Debug-1a34208ffef72b0dd3d0.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyCoverage::@8091ef369240a0bad874",
+					"jsonFile" : "target-NightlyCoverage-Debug-7ad7bdde2d717eef34ee.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemCheck::@8091ef369240a0bad874",
+					"jsonFile" : "target-NightlyMemCheck-Debug-c88ca27ea0e593ff74f0.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemoryCheck::@8091ef369240a0bad874",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-1bd6c85f2c2793966b94.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyStart::@8091ef369240a0bad874",
+					"jsonFile" : "target-NightlyStart-Debug-612998a4105fc74ffa89.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlySubmit::@8091ef369240a0bad874",
+					"jsonFile" : "target-NightlySubmit-Debug-e57b8a18ca617c570e1d.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyTest::@8091ef369240a0bad874",
+					"jsonFile" : "target-NightlyTest-Debug-f26216334216c1963d55.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyUpdate::@8091ef369240a0bad874",
+					"jsonFile" : "target-NightlyUpdate-Debug-85f1b7115fe37e619dcb.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "antlr_frontend::@7730146440f0e3186e43",
+					"jsonFile" : "target-antlr_frontend-Debug-6383938ce421da08f615.json",
+					"name" : "antlr_frontend",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "backend::@7730146440f0e3186e43",
+					"jsonFile" : "target-backend-Debug-72d0bef2853827b95b61.json",
+					"name" : "backend",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "code_generation::@7730146440f0e3186e43",
+					"jsonFile" : "target-code_generation-Debug-bd04075570bb31da0a48.json",
+					"name" : "code_generation",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_fuzz_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_fuzz_test-Debug-1c74b387abfbff2745c2.json",
+					"name" : "first_fuzz_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_compatibility_mode::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_compatibility_mode-Debug-8340c08e3cd5fa4613d8.json",
+					"name" : "fuzztest_compatibility_mode",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_configuration::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_configuration-Debug-9f18f5e95dd9129088d9.json",
+					"name" : "fuzztest_configuration",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_coverage::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_coverage-Debug-f9c398b173ead002989b.json",
+					"name" : "fuzztest_coverage",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_domain::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_domain-Debug-32b22e44f9be685bc47f.json",
+					"name" : "fuzztest_domain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_fixture_driver::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_fixture_driver-Debug-d7ee7b72dff818838cb8.json",
+					"name" : "fuzztest_fixture_driver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_fuzztest::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_fuzztest-Debug-04d5f8cfc9c64cdae86a.json",
+					"name" : "fuzztest_fuzztest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_fuzztest_gtest_main::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_fuzztest_gtest_main-Debug-c4ed0c7e38ac4865feb7.json",
+					"name" : "fuzztest_fuzztest_gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_googletest_adaptor::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_googletest_adaptor-Debug-1fe2bced17575155ee3c.json",
+					"name" : "fuzztest_googletest_adaptor",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_init_fuzztest::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_init_fuzztest-Debug-f0d0e3b6a229bcfe27f8.json",
+					"name" : "fuzztest_init_fuzztest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_io::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_io-Debug-fe7b07d857fce3e905cc.json",
+					"name" : "fuzztest_io",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_llvm_fuzzer_main::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_llvm_fuzzer_main-Debug-c76fb47770d0b4437c53.json",
+					"name" : "fuzztest_llvm_fuzzer_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_llvm_fuzzer_wrapper::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_llvm_fuzzer_wrapper-Debug-e84c58d395f899dc3c51.json",
+					"name" : "fuzztest_llvm_fuzzer_wrapper",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_logging::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_logging-Debug-5cdd996e36fafd52d111.json",
+					"name" : "fuzztest_logging",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_regexp_dfa::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_regexp_dfa-Debug-08a0dca5b2a79ad6bc6c.json",
+					"name" : "fuzztest_regexp_dfa",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_registry::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_registry-Debug-490d44d52d9c9cba4939.json",
+					"name" : "fuzztest_registry",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_runtime::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_runtime-Debug-ac14b5e2fac464a3f9e5.json",
+					"name" : "fuzztest_runtime",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_seed_seq::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_seed_seq-Debug-d7b5cff3e739904fa648.json",
+					"name" : "fuzztest_seed_seq",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_serialization::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_serialization-Debug-19a3d0628ebed2607107.json",
+					"name" : "fuzztest_serialization",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_status::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_status-Debug-36b0e828092a863114dc.json",
+					"name" : "fuzztest_status",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_subprocess::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_subprocess-Debug-b29db66cfb3d4846adb9.json",
+					"name" : "fuzztest_subprocess",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fuzztest_type_support::@548ff1065ec5115d2cc4",
+					"jsonFile" : "target-fuzztest_type_support-Debug-8f4fa819beeec77570e6.json",
+					"name" : "fuzztest_type_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "generated_antlr_parser::@663d8332c1a4d8640b1b",
+					"jsonFile" : "target-generated_antlr_parser-Debug-de28529ebcd5dc44ff21.json",
+					"name" : "generated_antlr_parser",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "grammar_domain_code_generator::@270387ec4fb242d8d923",
+					"jsonFile" : "target-grammar_domain_code_generator-Debug-f165e6b2023e1d0aefd9.json",
+					"name" : "grammar_domain_code_generator",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "grammar_info::@7730146440f0e3186e43",
+					"jsonFile" : "target-grammar_info-Debug-5f678d115ab3c226eb56.json",
+					"name" : "grammar_info",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "json_grammar::@a936e3f1dd32dd630c87",
+					"jsonFile" : "target-json_grammar-Debug-30b17a12d1258ceccd59.json",
+					"name" : "json_grammar",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "re2::@8091ef369240a0bad874",
+					"jsonFile" : "target-re2-Debug-07e7b8822f1d76ff1210.json",
+					"name" : "re2",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jacek/dev/temp/first_fuzz_project/build",
+		"source" : "/home/jacek/dev/temp/first_fuzz_project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

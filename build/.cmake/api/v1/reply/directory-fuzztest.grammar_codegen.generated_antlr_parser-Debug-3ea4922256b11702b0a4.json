@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fuzztest/grammar_codegen/generated_antlr_parser",
+		"source" : "fuzztest/grammar_codegen/generated_antlr_parser"
+	}
+}

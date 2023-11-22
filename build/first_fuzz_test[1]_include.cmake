@@ -1,0 +1,5 @@
+if(EXISTS "/home/jacek/dev/temp/first_fuzz_project/build/first_fuzz_test[1]_tests.cmake")
+  include("/home/jacek/dev/temp/first_fuzz_project/build/first_fuzz_test[1]_tests.cmake")
+else()
+  add_test(first_fuzz_test_NOT_BUILT first_fuzz_test_NOT_BUILT)
+endif()
