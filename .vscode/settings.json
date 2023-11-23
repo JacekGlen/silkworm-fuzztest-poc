@@ -105,12 +105,13 @@
         "scoped_allocator": "cpp"
     },
     "cmake.configureSettings": {
-        "CONAN_PROFILE": "linux_clang_13_debug",
-        "CONAN_BUILD_TYPES": "Debug",
-        "CMAKE_BUILD_TYPE": "Debug",
+        "CONAN_PROFILE": "linux_clang_13_release",
+        "CONAN_BUILD_TYPES": "RelWithDebInfo",
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo",
         "CMAKE_CXX_STANDARD": "20",
         "CMAKE_CXX_STANDARD_REQUIRED": "ON",
         "FUZZTEST_FUZZING_MODE": "ON",
         "FUZZTEST_COMPATIBILITY_MODE": "",
     },
+    "C_Cpp.errorSquiggles": "disabled",
 }
