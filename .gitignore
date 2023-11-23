@@ -1,0 +1,11 @@
+build*
+venv
+xcode
+*.code-workspace
+.idea
+.vscode
+.vs
+CMakeFiles
+cmake-build-*
+tests/integration/goerly/results
+
