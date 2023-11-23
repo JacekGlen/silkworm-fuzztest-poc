@@ -113,4 +113,5 @@
         "FUZZTEST_FUZZING_MODE": "ON",
         "FUZZTEST_COMPATIBILITY_MODE": "",
     },
+    "C_Cpp.errorSquiggles": "disabled",
 }
